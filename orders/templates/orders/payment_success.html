@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title-head %}
+    Payment Success!!!!
+{% endblock %}
+
+{% block content %}
+    <div class="text-center mt-5">
+        <h2 class="text-success">Thank you for your order</h2>
+        <p>Our manager'll contact you later</p>
+        <a href="{% url 'shop:home' %}" class="btn btn-primary mt-3">Home page</a>
+    </div>
+{% endblock %}
